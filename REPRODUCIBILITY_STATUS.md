@@ -2,7 +2,6 @@
 
 ## Present in the release
 
-- Revised manuscript source and bibliography.
 - Machine-readable primary and payload-sweep tables.
 - The archive-supplied qualitative COCO composite.
 - SHA-256 provenance for the qualitative artifact.
@@ -26,4 +25,3 @@
 ## Consequence
 
 The aggregate tables and artifact checks can be reproduced. The reported model cannot yet be retrained, and the displayed stego outputs cannot be regenerated from weights. This repository must not be described as a full computational reproduction until the missing source, configurations, weights, and run-level records are deposited and checked.
-

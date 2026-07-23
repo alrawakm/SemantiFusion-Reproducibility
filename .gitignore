@@ -5,10 +5,3 @@ __pycache__/
 .pytest_cache/
 output/*
 !output/.gitkeep
-manuscript/*.aux
-manuscript/*.bbl
-manuscript/*.blg
-manuscript/*.log
-manuscript/*.out
-manuscript/*.pdf
-

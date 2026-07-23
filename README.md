@@ -6,6 +6,8 @@ This repository accompanies the manuscript:
 
 It preserves the evidence that was present in the supplied research archive and provides executable analysis and validation code. It does not claim to reconstruct files that were absent from that archive.
 
+This is a code-only repository. The manuscript, journal template, and compiled PDF are maintained separately and are not included here.
+
 ## Reproducibility boundary
 
 The release has three evidence levels.
@@ -62,7 +64,6 @@ The manifest keeps reference-level identifiers together so that all outputs deri
 - `scripts/`: command-line entry points.
 - `tests/`: deterministic unit tests.
 - `docs/`: the target-aware evaluation protocol and release limitations.
-- `manuscript/`: the revised manuscript source and qualitative figure.
 
 ## Metric implementation
 
@@ -75,4 +76,3 @@ Dataset images are not redistributed. Obtain MS-COCO, DIV2K, and BOSSBase from t
 ## Citation and reuse
 
 Citation metadata are provided in `CITATION.cff`. No software license has been selected by the author; see `LICENSE_STATUS.md` before reusing the code.
-

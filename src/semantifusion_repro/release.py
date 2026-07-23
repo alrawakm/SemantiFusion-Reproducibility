@@ -18,8 +18,6 @@ def validate_release(repo_root: str | Path) -> list[str]:
         "data/aggregate/payload_results.csv",
         "artifacts/qualitative/provenance.json",
         "artifacts/qualitative/visual_coco_original_stego.png",
-        "manuscript/main.tex",
-        "manuscript/references.bib",
     )
     for relative in required:
         if not (root / relative).is_file():
@@ -41,4 +39,3 @@ def validate_release(repo_root: str | Path) -> list[str]:
     if artifact.is_file() and provenance.is_file():
         errors.extend(validate_archive_artifact(artifact, provenance))
     return errors
-
