@@ -1,0 +1,5 @@
+method,psnr_db,ssim,ber_percent,transfer_auc,source
+HiDDeN,36.9,0.94,6.4,0.61,retained manuscript aggregate
+SteganoGAN,37.4,0.95,5.7,0.58,retained manuscript aggregate
+SemantiFusion,39.2,0.96,3.2,0.51,retained manuscript aggregate
+

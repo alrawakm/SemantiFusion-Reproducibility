@@ -1,0 +1,14 @@
+field,required,description
+sample_id,yes,Immutable sample identifier
+reference_id,yes,Identifier shared by all outputs derived from one reference
+original_path,yes,Path to the reference image relative to the manifest
+stego_path,yes,Path to the stego image relative to the manifest
+payload_bits,no,Payload length for the sample
+message_bits_path,no,Optional path to transmitted bits
+recovered_bits_path,no,Optional path to recovered bits
+split,no,train validation or test assigned at reference level
+model_id,no,Exact generator and decoder release identifier
+checkpoint_sha256,no,SHA-256 digest of the checkpoint bundle
+message_seed,no,Seed used to sample the payload
+generation_seed,no,Seed used for stochastic generation
+

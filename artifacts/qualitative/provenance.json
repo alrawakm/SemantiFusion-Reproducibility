@@ -1,0 +1,16 @@
+{
+  "artifact": "visual_coco_original_stego.png",
+  "sha256": "8fbac9e5cce45c6c1540f281c36e43a520a83f2ed9a172b096139fea3b97ee62",
+  "width": 1340,
+  "height": 1484,
+  "source_archive": "Overleaf Projects (1 items) (8).zip / A Transformer-Guided Semantic Steganography Framework for Natural Images.zip",
+  "archive_path": "visual_coco_original_stego.png",
+  "displayed_dataset": "COCO val2017",
+  "displayed_reference_ids": [
+    "000000000139.jpg",
+    "000000000632.jpg",
+    "000000000724.jpg"
+  ],
+  "interpretation": "Archive-supplied qualitative composite. Raw pairs, payloads, seeds, and generating checkpoint were not retained."
+}
+

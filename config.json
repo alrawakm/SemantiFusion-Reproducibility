@@ -1,0 +1,22 @@
+{
+  "artifact_version": "0.1.0",
+  "image_size": [256, 256],
+  "payload_bits": [64, 256, 512, 1024],
+  "primary_payload_bits": 256,
+  "primary_dataset": "COCO val2017",
+  "reported_metrics": ["psnr_db", "ssim", "ber_percent", "transfer_auc"],
+  "available_evidence": [
+    "aggregate primary table",
+    "aggregate payload table",
+    "qualitative composite"
+  ],
+  "missing_evidence": [
+    "training code",
+    "trained checkpoints",
+    "raw original-stego pairs",
+    "message and recovered bitstreams",
+    "run-level detector scores",
+    "reference-level split manifest"
+  ]
+}
+

@@ -1,0 +1,6 @@
+payload_bits,image_width,image_height,bpp,psnr_db,ssim,ber_percent,transfer_auc,source
+64,256,256,0.0010,40.8,0.98,1.5,0.50,retained manuscript aggregate
+256,256,256,0.0039,39.2,0.96,3.2,0.51,retained manuscript aggregate
+512,256,256,0.0078,38.4,0.95,5.1,0.53,retained manuscript aggregate
+1024,256,256,0.0156,37.6,0.94,7.8,0.55,retained manuscript aggregate
+

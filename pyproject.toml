@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantifusion-repro"
+version = "0.1.0"
+description = "Validation and analysis utilities for the SemantiFusion research artifact"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Khaled Alrawashdeh", email = "alrawakm@mail.uc.edu"}
+]
+dependencies = [
+  "numpy>=1.26",
+  "Pillow>=10.0"
+]
+
+[project.scripts]
+semantifusion-validate = "semantifusion_repro.cli:validate_main"
+semantifusion-tables = "semantifusion_repro.cli:tables_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

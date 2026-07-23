@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the accompanying SemantiFusion manuscript."
+title: "SemantiFusion reproducibility artifact"
+type: software
+authors:
+  - family-names: "Alrawashdeh"
+    given-names: "Khaled"
+    email: "alrawakm@mail.uc.edu"
+version: 0.1.0
+date-released: 2026-07-23
+repository-code: "https://github.com/alrawakm/SemantiFusion-Reproducibility"
