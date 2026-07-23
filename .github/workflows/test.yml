@@ -3,6 +3,7 @@ name: artifact-checks
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
@@ -16,4 +17,3 @@ jobs:
       - run: python scripts/validate_release.py
       - run: python scripts/reproduce_reported_tables.py --output-dir output/tables
       - run: python -m unittest discover -s tests -v
-
